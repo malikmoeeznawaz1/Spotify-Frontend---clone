@@ -27,7 +27,7 @@ const Player = () => {
                <p>4:12</p> 
             </div>
         </div>
-        <div className='hidden lg:flex items-center gap-2 '>
+        <div className='hidden lg:flex items-center gap-2 opacity-75'>
             <img src={assets.plays_icon} alt="" className="w-4 cursor-pointer" />
             <img src={assets.mic_icon} alt="" className="w-4 cursor-pointer" />
             <img src={assets.queue_icon} alt="" className="w-4 cursor-pointer" />
